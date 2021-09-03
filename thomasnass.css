@@ -1,9 +1,56 @@
-body{
-    margin: auto;
+html,body{
+    height: 100%;
+    margin: 0;
+    
 }
 
 header{
+    margin: 0;
     color: white;
-	background-color:black;
+	background-color:rgb(32, 73, 184);
     font-size:x-large;
+}
+footer{
+    color: white;
+	background-color:rgb(32, 73, 184);
+}
+
+.wrapper{
+   
+    min-height: 100%;
+    margin-bottom:  -50px;
+}
+.footer, 
+.push{
+    height: 50px;
+}
+img{
+    float:left;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#right{
+   
+    float:right;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.list,li{
+    font-size: x-large;
 }
