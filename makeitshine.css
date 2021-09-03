@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(176, 215, 230);
+  }
+  h1 {
+    color: blue;
+    font-size: 20px;
+  }
+  ul {
+    color: red;
+  }
